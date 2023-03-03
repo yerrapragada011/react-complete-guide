@@ -5,7 +5,8 @@ import './ExpenseItem.css';
 
 const ExpenseItem = ({ date, title, amount }) => {
   const clickHandler = () => {
-    console.log('Clicked!!!!');
+    title = 'Updated!';
+    console.log(title);
   };
 
   return (
